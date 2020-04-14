@@ -7,7 +7,7 @@ input.onButtonPressed(Button.A, function () {
 let taste_a_gedrueckt = 0
 let taste_b_gedrueckt = 0
 basic.forever(function () {
-    if (taste_a_gedrueckt == 3 && taste_b_gedrueckt == 0) {
-        basic.showNumber(1)
+    if (taste_a_gedrueckt == 0 && taste_b_gedrueckt == 2) {
+        basic.showNumber(2)
     }
 })
